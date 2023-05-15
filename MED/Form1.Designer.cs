@@ -50,7 +50,7 @@ namespace MED
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(240, 78);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -59,6 +59,7 @@ namespace MED
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Location = new System.Drawing.Point(240, 580);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 40);
@@ -69,17 +70,17 @@ namespace MED
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox2.Location = new System.Drawing.Point(240, 183);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(247, 356);
+            this.textBox2.Size = new System.Drawing.Size(247, 308);
             this.textBox2.TabIndex = 3;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox3.Location = new System.Drawing.Point(809, 73);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -88,7 +89,7 @@ namespace MED
             // 
             // textBox4
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox4.Location = new System.Drawing.Point(809, 166);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
@@ -117,6 +118,7 @@ namespace MED
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button3.Location = new System.Drawing.Point(683, 263);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(107, 40);
@@ -127,7 +129,7 @@ namespace MED
             // 
             // textBox5
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox5.Location = new System.Drawing.Point(809, 254);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
@@ -143,13 +145,13 @@ namespace MED
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(850, 381);
+            this.dataGridView1.Size = new System.Drawing.Size(850, 359);
             this.dataGridView1.TabIndex = 10;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // textBox6
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox6.Location = new System.Drawing.Point(985, 520);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
@@ -161,10 +163,10 @@ namespace MED
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(987, 487);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 16);
+            this.label3.Size = new System.Drawing.Size(91, 25);
             this.label3.TabIndex = 12;
             this.label3.Text = "STEPS:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -172,7 +174,7 @@ namespace MED
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(237, 442);
+            this.label4.Location = new System.Drawing.Point(237, 496);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 16);
             this.label4.TabIndex = 13;
@@ -181,7 +183,7 @@ namespace MED
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(985, 475);
+            this.label5.Location = new System.Drawing.Point(982, 437);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 16);
             this.label5.TabIndex = 14;
@@ -200,10 +202,10 @@ namespace MED
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(985, 33);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(265, 25);
+            this.label7.Size = new System.Drawing.Size(292, 25);
             this.label7.TabIndex = 16;
             this.label7.Text = "Minimum Edit Distance Table";
             // 
