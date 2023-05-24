@@ -1,5 +1,5 @@
 # MED 
-The completion date is the first half of 2020.
+The completion date is the first half of 2021.
 
 Minimum Edit Distance - the minimum number of editing operations needed to transform one string into another:
 - operation/insertion
